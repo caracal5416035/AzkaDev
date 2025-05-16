@@ -337,11 +337,15 @@ button[type="submit"] {
   }
 
   /* SECTION STYLE */
+  * {
+  scroll-behavior: smooth;
+}
+  /* SECTION STYLE */
   section {
-    max-width: 1100px;
-    margin: 0 auto 3rem auto;
+    max-width: 900px;
+    margin: 0 auto 5rem auto;
     background: white;
-    border-radius: 24px;
+    border-radius: 10px;
     padding: 3rem 1rem 3rem 1rem;
     box-shadow: 0 6px 20px rgba(0,0,0,0.07);
     transition: box-shadow 0.3s ease;
